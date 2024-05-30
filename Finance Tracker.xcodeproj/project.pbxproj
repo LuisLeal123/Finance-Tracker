@@ -11,6 +11,14 @@
 		409E62A52BFC42BF008A5E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E62A42BFC42BF008A5E68 /* ContentView.swift */; };
 		409E62A72BFC42C0008A5E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409E62A62BFC42C0008A5E68 /* Assets.xcassets */; };
 		409E62AA2BFC42C0008A5E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409E62A92BFC42C0008A5E68 /* Preview Assets.xcassets */; };
+		40D2A0762C0728CF0002D476 /* BudgetTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0752C0728CF0002D476 /* BudgetTrackerViewController.swift */; };
+		40D2A0782C0728E80002D476 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0772C0728E80002D476 /* SchedulerViewController.swift */; };
+		40D2A07A2C0728FF0002D476 /* WorkLogTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0792C0728FF0002D476 /* WorkLogTrackerViewController.swift */; };
+		40D2A07C2C0729100002D476 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A07B2C0729100002D476 /* SettingsViewController.swift */; };
+		40D2A07F2C072B100002D476 /* BudgetTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A07E2C072B100002D476 /* BudgetTrackerView.swift */; };
+		40D2A0812C072B340002D476 /* SchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0802C072B340002D476 /* SchedulerView.swift */; };
+		40D2A0832C072B480002D476 /* WorkLogTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */; };
+		40D2A0852C072B510002D476 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0842C072B510002D476 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		409E62A42BFC42BF008A5E68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		409E62A62BFC42C0008A5E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409E62A92BFC42C0008A5E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40D2A0752C0728CF0002D476 /* BudgetTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerViewController.swift; sourceTree = "<group>"; };
+		40D2A0772C0728E80002D476 /* SchedulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		40D2A0792C0728FF0002D476 /* WorkLogTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogTrackerViewController.swift; sourceTree = "<group>"; };
+		40D2A07B2C0729100002D476 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		40D2A07E2C072B100002D476 /* BudgetTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerView.swift; sourceTree = "<group>"; };
+		40D2A0802C072B340002D476 /* SchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerView.swift; sourceTree = "<group>"; };
+		40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogTrackerView.swift; sourceTree = "<group>"; };
+		40D2A0842C072B510002D476 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 		409E62A12BFC42BF008A5E68 /* Finance Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				40D2A07D2C072AF80002D476 /* Views */,
+				40D2A0742C0728880002D476 /* Controllers */,
 				409E62A22BFC42BF008A5E68 /* Finance_TrackerApp.swift */,
 				409E62A42BFC42BF008A5E68 /* ContentView.swift */,
 				409E62A62BFC42C0008A5E68 /* Assets.xcassets */,
@@ -65,6 +83,28 @@
 				409E62A92BFC42C0008A5E68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40D2A0742C0728880002D476 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40D2A0752C0728CF0002D476 /* BudgetTrackerViewController.swift */,
+				40D2A0772C0728E80002D476 /* SchedulerViewController.swift */,
+				40D2A0792C0728FF0002D476 /* WorkLogTrackerViewController.swift */,
+				40D2A07B2C0729100002D476 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		40D2A07D2C072AF80002D476 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D2A07E2C072B100002D476 /* BudgetTrackerView.swift */,
+				40D2A0802C072B340002D476 /* SchedulerView.swift */,
+				40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */,
+				40D2A0842C072B510002D476 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D2A0832C072B480002D476 /* WorkLogTrackerView.swift in Sources */,
+				40D2A0812C072B340002D476 /* SchedulerView.swift in Sources */,
 				409E62A52BFC42BF008A5E68 /* ContentView.swift in Sources */,
+				40D2A0762C0728CF0002D476 /* BudgetTrackerViewController.swift in Sources */,
+				40D2A0782C0728E80002D476 /* SchedulerViewController.swift in Sources */,
+				40D2A0852C072B510002D476 /* SettingsView.swift in Sources */,
+				40D2A07A2C0728FF0002D476 /* WorkLogTrackerViewController.swift in Sources */,
 				409E62A32BFC42BF008A5E68 /* Finance_TrackerApp.swift in Sources */,
+				40D2A07C2C0729100002D476 /* SettingsViewController.swift in Sources */,
+				40D2A07F2C072B100002D476 /* BudgetTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
