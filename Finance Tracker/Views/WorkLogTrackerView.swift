@@ -10,7 +10,7 @@ import SwiftUI
 
 struct WorkLogTrackerView: View {
     var body: some View {
-        Text("Budget Tracker")
+        Text("Work Log")
             .font(.largeTitle)
             .padding()
     }

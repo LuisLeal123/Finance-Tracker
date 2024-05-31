@@ -19,6 +19,7 @@
 		40D2A0812C072B340002D476 /* SchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0802C072B340002D476 /* SchedulerView.swift */; };
 		40D2A0832C072B480002D476 /* WorkLogTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */; };
 		40D2A0852C072B510002D476 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0842C072B510002D476 /* SettingsView.swift */; };
+		40D2A0872C08ADE30002D476 /* IslandTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A0862C08ADE30002D476 /* IslandTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		40D2A0802C072B340002D476 /* SchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerView.swift; sourceTree = "<group>"; };
 		40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogTrackerView.swift; sourceTree = "<group>"; };
 		40D2A0842C072B510002D476 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		40D2A0862C08ADE30002D476 /* IslandTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				40D2A0802C072B340002D476 /* SchedulerView.swift */,
 				40D2A0822C072B480002D476 /* WorkLogTrackerView.swift */,
 				40D2A0842C072B510002D476 /* SettingsView.swift */,
+				40D2A0862C08ADE30002D476 /* IslandTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				40D2A0852C072B510002D476 /* SettingsView.swift in Sources */,
 				40D2A07A2C0728FF0002D476 /* WorkLogTrackerViewController.swift in Sources */,
 				409E62A32BFC42BF008A5E68 /* Finance_TrackerApp.swift in Sources */,
+				40D2A0872C08ADE30002D476 /* IslandTabView.swift in Sources */,
 				40D2A07C2C0729100002D476 /* SettingsViewController.swift in Sources */,
 				40D2A07F2C072B100002D476 /* BudgetTrackerView.swift in Sources */,
 			);

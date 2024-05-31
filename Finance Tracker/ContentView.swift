@@ -8,31 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
+
     var body: some View {
-        TabView {
-            BudgetTrackerView()
-                .tabItem {
-                    Image(systemName: "dollarsign.circle")
-                    Text("Budget")
+        ZStack {
+            // Main content views
+            Group {
+                if selectedTab == 0 {
+                    BudgetTrackerView()
+                } else if selectedTab == 1 {
+                    SchedulerView()
+                } else if selectedTab == 2 {
+                    WorkLogTrackerView()
+                } else if selectedTab == 3 {
+                    SettingsView()
                 }
+            }
+            .edgesIgnoringSafeArea(.all)
             
-            SchedulerView()
-                .tabItem {
-                    Image(systemName: "calendar")
-                    Text("Schedule")
-                }
-            
-            WorkLogTrackerView()
-                .tabItem {
-                    Image(systemName: "doc.text")
-                    Text("Work Log")
-                }
-            
-            SettingsView()
-                .tabItem {
-                    Image(systemName: "gear")
-                    Text("Settings")
-                }
+            // Floating tab bar
+            VStack {
+                Spacer()
+                FloatingTabBar(selectedTab: $selectedTab)
+                    .padding(.bottom, 30) // Adjust the padding to control the floating effect
+            }
         }
     }
 }
